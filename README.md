@@ -3,6 +3,9 @@
 
 This library provides features to perform CRUD operations on local storage, or other kind of storages.
 
+## Documentation
+[Documentation Link](https://github.com/R4m4n/storage_library/blob/master/documentation/API_DOCUMENTATION.md)
+
 ## Features
 
  - Insert single row data.
@@ -38,5 +41,16 @@ For local usage
 ```
 pip install -r requirements
 ```
+
+## Formats and desinations supported
+ - JSON <> File storage
+ - XML <> File storage
+ - JSON <> S3 storage
+
+### Third-party installtions required
+ - 'dicttoxml'
+ - 'xmltodict' 
+ - 'boto3'
+
 ## Run test
 `python setup.py pytest`

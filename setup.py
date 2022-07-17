@@ -6,7 +6,7 @@ setup(
     description='Storage library containing CRUD operations.',
     author='Raman',
     license='MIT',
-    install_requires=[],
+    install_requires=['dicttoxml', 'xmltodict', 'boto3'],
     setup_requires=['pytest-runner'],
     tests_require=['pytest'],
     test_suite='tests',
