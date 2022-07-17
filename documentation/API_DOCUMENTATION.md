@@ -29,7 +29,7 @@ True
  - Delete single records with filters.
  - Can use offset and limit in get().
 
-Requests supports python3.7+
+StorageLib supports python3.7+
 
 ## User guide
 
